@@ -22,7 +22,7 @@ class AddProduct extends React.Component{
 
     render() {
         if (!this.props.product){
-            return <div>Loading...</div>
+            return <div>Loading the title...</div>
         }
 
         return(
